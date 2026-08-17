@@ -1,5 +1,5 @@
-import Phaser from 'phaser';
-import { socketClient } from '../network/socketClient';
+
+import { socketClient } from '../network/socketClient.js';
 
 export class HubScene extends Phaser.Scene {
   constructor() {

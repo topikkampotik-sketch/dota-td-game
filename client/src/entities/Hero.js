@@ -1,4 +1,3 @@
-import Phaser from 'phaser';
 
 export class Hero extends Phaser.GameObjects.Arc {
   constructor(scene, x, y, heroId = 'meepo') {

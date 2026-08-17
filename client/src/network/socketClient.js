@@ -1,5 +1,4 @@
 
-
 class SocketClient {
   constructor() {
     // Подключение к развернутому серверу на Render

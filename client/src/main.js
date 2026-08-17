@@ -1,8 +1,8 @@
-import Phaser from 'phaser';
-import { socketClient } from './network/socketClient';
-import { HubScene } from './scenes/HubScene';
-import { MapScene } from './scenes/MapScene';
-import { BattleScene } from './scenes/BattleScene';
+
+import { socket } from './network/socketClient.js';
+import { HubScene } from './scenes/HubScene.js';
+import { MapScene } from './scenes/MapScene.js';
+import { BattleScene } from './scenes/BattleScene.js';
 
 // Инициализируем сокет-соединение
 socketClient.connect();

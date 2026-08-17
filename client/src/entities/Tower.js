@@ -1,4 +1,3 @@
-import Phaser from 'phaser';
 
 // Юнит Свена из Бараков
 export class SvenUnit extends Phaser.GameObjects.Arc {

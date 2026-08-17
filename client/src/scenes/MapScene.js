@@ -1,4 +1,3 @@
-import Phaser from 'phaser';
 
 export class MapScene extends Phaser.Scene {
   constructor() {

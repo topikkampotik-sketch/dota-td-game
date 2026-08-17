@@ -1,8 +1,8 @@
 
-import { Hero } from '../entities/Hero';
-import { Enemy } from '../entities/Enemy';
-import { Tower } from '../entities/Tower';
-import { socketClient } from '../network/socketClient';
+import { Hero } from '../entities/Hero.js';
+import { Enemy } from '../entities/Enemy.js';
+import { Tower } from '../entities/Tower.js';
+import { socketClient } from '../network/socketClient.js';
 
 export class BattleScene extends Phaser.Scene {
   constructor() {

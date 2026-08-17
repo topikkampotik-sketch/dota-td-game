@@ -1,4 +1,3 @@
-import Phaser from 'phaser';
 
 export class Enemy extends Phaser.GameObjects.Arc {
   constructor(scene, x, y, wave = 1, level = 1, type = 'orc') {
