@@ -2,8 +2,8 @@ import { io } from 'socket.io-client';
 
 class SocketClient {
   constructor() {
-    // Укажите порт вашего бэкенд-сервера
-    this.socket = io('http://localhost:3000'); 
+    // Подключение к развернутому серверу на Render
+    this.socket = io('https://dota-td-game-server.onrender.com'); 
   }
 
   joinRoom(roomCode, heroId) {
