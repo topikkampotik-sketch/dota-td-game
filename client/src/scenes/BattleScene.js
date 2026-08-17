@@ -1,4 +1,4 @@
-import Phaser from 'phaser';
+
 import { Hero } from '../entities/Hero';
 import { Enemy } from '../entities/Enemy';
 import { Tower } from '../entities/Tower';
